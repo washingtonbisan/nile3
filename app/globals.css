@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nile-blue: #1a237e;
+  --nile-navy: #0d1b6e;
+  --nile-dark: #0a1155;
+  --nile-green: #2e7d32;
+  --nile-accent: #1565c0;
+  --bg: #f0f0f0;
+  --white: #ffffff;
+  --border: #d1d5db;
+  --text: #1f2937;
+  --muted: #6b7280;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: var(--bg);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Dotted background pattern (matches login page) */
+.dotted-bg {
+  background-color: #e8e8e8;
+  background-image: radial-gradient(circle, #c0c0c0 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Nile blue header band */
+.nile-band {
+  background-color: var(--nile-blue);
+  color: white;
+}
+
+/* Table alternating rows - light blue like the result slip */
+.result-row-even { background-color: #dbeafe; }
+.result-row-odd  { background-color: #ffffff; }
+
+/* Grade letter colors */
+.grade-a { color: #166534; font-weight: bold; }
+.grade-b { color: #1e40af; font-weight: bold; }
+.grade-c { color: #92400e; font-weight: bold; }
+.grade-f { color: #991b1b; font-weight: bold; }
+
+/* Sidebar active */
+.nav-active {
+  background: rgba(255,255,255,0.18);
+  border-left: 3px solid #4ade80;
+}
+
+/* Print */
+@media print {
+  .no-print { display: none !important; }
+  body { background: white; }
+  .print-full { width: 100% !important; }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #e5e7eb; }
+::-webkit-scrollbar-thumb { background: #9ca3af; border-radius: 3px; }
