@@ -14,40 +14,61 @@ export const student = {
   nationality: "Nigerian",
   stateOfOrigin: "Kaduna State",
   address: "Hostel B, Room 204, Nile University of Nigeria, Abuja",
+
   department: "Medicine & Surgery",
   faculty: "College of Medicine & Health Sciences",
+
   level: "100 Level",
-  semester: "First Semester",
+  semester: "Second Semester",
   academicYear: "2025/2026",
+
   entryDate: "September 2025",
   expectedGraduation: "June 2031",
+
   advisor: "Dr. Abiodun Salami, MBBS, FMCP",
+
   enrollmentStatus: "Active",
-  gpa: "4.00",
-  cgpa: "4.00",
-  previousCgpa: "—",
-  totalCredits: 0,
+
+  // Academic performance
+  gpa: "4.42",
+  cgpa: "4.14",
+  previousCgpa: "4.00",
+
+  // Total credits completed across both semesters
+  totalCredits: 37,
 };
+
+// ══════════════════════════════════════════════════════════════
+// UNIVERSITY INFORMATION
+// ══════════════════════════════════════════════════════════════
 
 export const university = {
   name: "Nile University of Nigeria",
   shortName: "NUN",
   abbreviation: "NILE",
+
   motto: "Honoris United Universities",
   tagline: "HONORIS UNITED UNIVERSITIES",
+
   website: "www.nileuniversity.edu.ng",
+
   address:
     "Plot 681, Cadastral Zone C-OO, Research Institution Area, Airport Rd, Jabi, Abuja",
-  semester: "1st Semester 2025/2026 Academic Session",
-  semesterShort: "1st Semester 2025/2026",
+
+  semester: "2nd Semester 2025/2026 Academic Session",
+  semesterShort: "2nd Semester 2025/2026",
+
   registrarEmail: "academicdivision@nileuniversity.edu.ng",
   portalEmail: "mis@nileuniversity.edu.ng",
   bursaryEmail: "bursarydepartment@nileuniversity.edu.ng",
   itsupportEmail: "itsupport@nileuniversity.edu.ng",
   libraryEmail: "library@nileuniversity.edu.ng",
+
   femaleHostelEmail: "femalehostel@nileuniversity.edu.ng",
   maleHostelEmail: "malehostel@nileuniversity.edu.ng",
+
   admissionEmail: "admission@nileuniversity.edu.ng",
+
   portalVersion: "SIS v4.1",
   currentYear: "2025/2026",
 };
@@ -55,170 +76,244 @@ export const university = {
 // ══════════════════════════════════════════════════════════════
 // LOGIN CREDENTIALS
 // ══════════════════════════════════════════════════════════════
+
 export const loginCredentials = [
-  { username: "sharon madami", password: "sharonmdj123" },
-  { username: "255643831", password: "sharonmdj123" },
+  {
+    username: "sharon madami",
+    password: "sharonmdj123",
+  },
+  {
+    username: "255643831",
+    password: "sharonmdj123",
+  },
 ];
 
 // ══════════════════════════════════════════════════════════════
-// COURSES — no midterm/final fields, only grade + letter + points
+// COURSES — SECOND SEMESTER
 // ══════════════════════════════════════════════════════════════
+//
+// Reduced dummy course set for the second semester.
+// GPA displayed on the student record: 4.42
+// Previous CGPA: 4.00
+// Overall CGPA: 4.14
+//
+// ══════════════════════════════════════════════════════════════
+
 export const courses = [
   {
-    code: "ANA 101",
-    name: "General Anatomy",
+    code: "ANA 102",
+    name: "General Anatomy II",
     credit: 3,
     type: "Core",
-    grade: 65,
-    letter: "B",
-    points: 4.0,
-    remark: "Very Good",
+    grade: 85,
+    letter: "A",
+    points: 5.0,
+    remark: "Distinction",
     lecturer: "Prof. Emeka Okonkwo, FWACS",
-    schedule: "Mon / Wed / Fri  |  8:00 – 9:00 AM  |  Anatomy Hall",
+    schedule: "Mon / Wed  |  8:00 – 10:00 AM  |  Anatomy Hall",
   },
+
   {
-    code: "BCH 101",
-    name: "Medical Biochemistry I",
+    code: "BCH 102",
+    name: "Medical Biochemistry II",
     credit: 3,
     type: "Core",
-    grade: 51,
-    letter: "C",
-    points: 3.0,
-    remark: "Good",
+    grade: 82,
+    letter: "A",
+    points: 5.0,
+    remark: "Distinction",
     lecturer: "Dr. Chidi Obi, PhD",
-    schedule: "Tue / Thu  |  8:00 – 9:00 AM  |  Science Block B",
+    schedule: "Tue / Thu  |  8:00 – 10:00 AM  |  Science Block B",
   },
+
   {
-    code: "PHY 101",
-    name: "Medical Physics I",
+    code: "BIO 102",
+    name: "General Biology II",
     credit: 3,
     type: "Core",
-    grade: 62,
-    letter: "B",
-    points: 4.0,
-    remark: "Very Good",
-    lecturer: "Dr. Aisha Umar, PhD",
-    schedule: "Mon / Fri  |  12:00 – 1:00 PM  |  Lecture Hall 3",
+    grade: 78,
+    letter: "A",
+    points: 5.0,
+    remark: "Distinction",
+    lecturer: "Dr. Kemi Adeyinka, PhD",
+    schedule: "Mon / Wed  |  10:00 – 11:00 AM  |  Lecture Hall 2",
   },
+
   {
-    code: "PHY 103",
-    name: "Medical Physics Practical",
-    credit: 2,
-    type: "Practical",
-    grade: 58,
-    letter: "C",
-    points: 3.0,
-    remark: "Good",
-    lecturer: "Dr. Aisha Umar, PhD",
-    schedule: "Thursday  |  2:00 – 5:00 PM  |  Physics Lab",
-  },
-  {
-    code: "CHM 101",
-    name: "General Chemistry for Medicine",
+    code: "PHY 102",
+    name: "General Physics II — Electricity & Magnetism",
     credit: 3,
     type: "Core",
     grade: 67,
     letter: "B",
     points: 4.0,
     remark: "Very Good",
-    lecturer: "Dr. Bola Adeyemi, PhD",
-    schedule: "Tue / Thu  |  12:00 – 1:00 PM  |  Science Block A",
+    lecturer: "Dr. Aisha Umar, PhD",
+    schedule: "Tue / Thu  |  12:00 – 1:00 PM  |  Lecture Hall 3",
   },
+
   {
-    code: "CHM 103",
-    name: "Chemistry Practical",
-    credit: 2,
-    type: "Practical",
-    grade: 55,
-    letter: "C",
-    points: 3.0,
-    remark: "Good",
-    lecturer: "Dr. Bola Adeyemi, PhD",
-    schedule: "Saturday  |  8:00 AM – 11:00 AM  |  Chemistry Lab",
-  },
-  {
-    code: "BIO 101",
-    name: "Cell Biology & Genetics",
+    code: "CHM 102",
+    name: "General Chemistry II",
     credit: 3,
     type: "Core",
-    grade: 76,
-    letter: "A",
-    points: 5.0,
-    remark: "Distinction",
-    lecturer: "Dr. Kemi Adeyinka, PhD",
-    schedule: "Mon / Wed  |  2:00 – 3:00 PM  |  Lecture Hall 2",
+    grade: 65,
+    letter: "B",
+    points: 4.0,
+    remark: "Very Good",
+    lecturer: "Dr. Bola Adeyemi, PhD",
+    schedule: "Mon / Fri  |  1:00 – 2:00 PM  |  Science Block A",
   },
+
   {
-    code: "BIO 103",
-    name: "Biology Practical (Microscopy)",
-    credit: 2,
-    type: "Practical",
-    grade: 70,
-    letter: "A",
-    points: 5.0,
-    remark: "Distinction",
-    lecturer: "Dr. Kemi Adeyinka, PhD",
-    schedule: "Tuesday  |  2:00 – 5:00 PM  |  Biology Lab",
-  },
-  {
-    code: "GST 101",
-    name: "Communication in English",
+    code: "GST 102",
+    name: "Use of English II",
     credit: 2,
     type: "General Studies",
-    grade: 71,
+    grade: 72,
     letter: "A",
     points: 5.0,
     remark: "Distinction",
     lecturer: "Mrs. Ngozi Adebayo, MA",
     schedule: "Friday  |  1:00 – 3:00 PM  |  Humanities Block",
   },
+
   {
-    code: "MED 101",
-    name: "Introduction to Medical Ethics",
+    code: "ANA 104",
+    name: "Anatomy Practical II",
     credit: 2,
-    type: "Compulsory",
-    grade: 63,
+    type: "Practical",
+    grade: 66,
     letter: "B",
     points: 4.0,
     remark: "Very Good",
-    lecturer: "Dr. Amara Nwosu, MBBS, LLM",
-    schedule: "Thursday  |  10:00 AM – 12:00 PM  |  Seminar Room 1",
+    lecturer: "Dr. Ibrahim Musa, PhD",
+    schedule: "Thursday  |  2:00 – 5:00 PM  |  Anatomy Laboratory",
+  },
+
+  {
+    code: "CHM 104",
+    name: "Chemistry Practical II",
+    credit: 2,
+    type: "Practical",
+    grade: 64,
+    letter: "B",
+    points: 4.0,
+    remark: "Very Good",
+    lecturer: "Dr. Bola Adeyemi, PhD",
+    schedule: "Saturday  |  8:00 – 11:00 AM  |  Chemistry Laboratory",
   },
 ];
 
 // ══════════════════════════════════════════════════════════════
-// GRADE SCALE — Nile University 5.0 System
+// GRADE SCALE — 5.0 SYSTEM
 // ══════════════════════════════════════════════════════════════
+
 export const gradeScale = [
-  { range: "70 – 100", letter: "A", points: 5.0, remark: "Distinction" },
-  { range: "60 – 69", letter: "B", points: 4.0, remark: "Very Good" },
-  { range: "50 – 59", letter: "C", points: 3.0, remark: "Good" },
-  { range: "45 – 49", letter: "D", points: 2.0, remark: "Pass" },
-  { range: "40 – 44", letter: "E", points: 1.0, remark: "Marginal Fail" },
-  { range: "0 – 39", letter: "F", points: 0.0, remark: "Fail" },
+  {
+    range: "70 – 100",
+    letter: "A",
+    points: 5.0,
+    remark: "Distinction",
+  },
+
+  {
+    range: "60 – 69",
+    letter: "B",
+    points: 4.0,
+    remark: "Very Good",
+  },
+
+  {
+    range: "50 – 59",
+    letter: "C",
+    points: 3.0,
+    remark: "Good",
+  },
+
+  {
+    range: "45 – 49",
+    letter: "D",
+    points: 2.0,
+    remark: "Pass",
+  },
+
+  {
+    range: "40 – 44",
+    letter: "E",
+    points: 1.0,
+    remark: "Marginal Fail",
+  },
+
+  {
+    range: "0 – 39",
+    letter: "F",
+    points: 0.0,
+    remark: "Fail",
+  },
 ];
 
 // ══════════════════════════════════════════════════════════════
-// FEES — in Nigerian Naira (₦)
+// FEES — IN NIGERIAN NAIRA (₦)
 // ══════════════════════════════════════════════════════════════
+
 export const fees = {
   currency: "₦",
+
   academicYear: "2025/2026",
+
   items: [
-    { label: "Tuition Fee — Medicine & Surgery", amount: 3150000 },
-    { label: "Accommodation Fee — Hostel B", amount: 1100000 },
-    { label: "Examination Fee", amount: 200000 },
-    { label: "Hospital Fee", amount: 400000 },
-    { label: "Library Fee", amount: 150000 },
-    { label: "Laboratory & Practical Fee", amount: 350000 },
-    { label: "Student Union Due", amount: 100000 },
-    { label: "Sports Fee", amount: 100000 },
+    {
+      label: "Tuition Fee — Medicine & Surgery",
+      amount: 3150000,
+    },
+
+    {
+      label: "Accommodation Fee — Hostel B",
+      amount: 1100000,
+    },
+
+    {
+      label: "Examination Fee",
+      amount: 200000,
+    },
+
+    {
+      label: "Hospital Fee",
+      amount: 400000,
+    },
+
+    {
+      label: "Library Fee",
+      amount: 150000,
+    },
+
+    {
+      label: "Laboratory & Practical Fee",
+      amount: 350000,
+    },
+
+    {
+      label: "Student Union Due",
+      amount: 100000,
+    },
+
+    {
+      label: "Sports Fee",
+      amount: 100000,
+    },
   ],
+
   totalBilled: 5550000,
   totalPaid: 5550000,
   balance: 0,
+
   paymentDeadline: "30th January, 2026",
 };
+
+// ══════════════════════════════════════════════════════════════
+// PAYMENT HISTORY
+// ══════════════════════════════════════════════════════════════
 
 export const paymentHistory = [
   {
@@ -229,6 +324,7 @@ export const paymentHistory = [
     method: "Bank Transfer — Zenith Bank",
     status: "Confirmed",
   },
+
   {
     ref: "NUN/BUR/2025/FMS/0092",
     date: "20th October, 2025",
@@ -237,6 +333,7 @@ export const paymentHistory = [
     method: "Bank Transfer — Zenith Bank",
     status: "Confirmed",
   },
+
   {
     ref: "NUN/BUR/2025/FMS/0101",
     date: "7th January, 2026",
@@ -245,6 +342,7 @@ export const paymentHistory = [
     method: "Online Payment — Remita",
     status: "Confirmed",
   },
+
   {
     ref: "NUN/BUR/2025/FMS/0115",
     date: "20th January, 2026",
@@ -253,6 +351,7 @@ export const paymentHistory = [
     method: "Online Payment — Remita",
     status: "Confirmed",
   },
+
   {
     ref: "NUN/BUR/2026/FMS/0121",
     date: "20th January, 2026",
@@ -263,48 +362,108 @@ export const paymentHistory = [
   },
 ];
 
+// ══════════════════════════════════════════════════════════════
+// BANK DETAILS
+// ══════════════════════════════════════════════════════════════
+
 export const bankDetails = {
   bankName: "Zenith Bank Plc",
+
   accountName: "Nile University of Nigeria — Bursary",
+
   accountNumber: "—",
+
   sortCode: "057",
+
   remitaRRR: "Generate via portal payment gateway",
 };
 
 // ══════════════════════════════════════════════════════════════
 // ANNOUNCEMENTS
 // ══════════════════════════════════════════════════════════════
+
 export const announcements = [
   {
     id: 1,
+
     title: "2nd Semester Registration Opens 9th March 2026",
+
     body: "Course registration for the 2nd Semester 2025/2026 academic session will open in March 2026. All students must complete registration on the SIS portal before the deadline of 6th April 2026.",
+
     date: "10th December, 2025",
+
     priority: "high",
+
     tag: "Academic",
   },
+
   {
     id: 2,
+
     title: "1st Semester Results Published",
+
     body: "First Semester 2025/2026 examination results have been officially released by the Academic Division. Students should review their result slips and report any discrepancies within 14 days.",
+
     date: "16th March, 2026",
+
     priority: "high",
+
     tag: "Results",
   },
+
   {
     id: 3,
+
     title: "Orientation — January 2026",
+
     body: "The College of Medicine is hosting a mandatory Orientation on 8th–9th January 2026. Attendance is compulsory for all 100L Medicine students.",
+
     date: "28th November, 2025",
+
     priority: "medium",
+
     tag: "Faculty",
   },
+
   {
     id: 4,
+
     title: "Library Extended Hours — Exam Period",
+
     body: "The Nile University Library will be open 24 hours daily from 15th November to 10th December 2025 to support students during the examination period.",
+
     date: "12th November, 2025",
+
     priority: "low",
+
     tag: "Library",
+  },
+
+  {
+    id: 5,
+
+    title: "Second Semester Examination Timetable",
+
+    body: "The examination timetable for the Second Semester 2025/2026 academic session is now available on the SIS portal. Students are advised to confirm their examination dates, venues and times.",
+
+    date: "25th May, 2026",
+
+    priority: "high",
+
+    tag: "Examinations",
+  },
+
+  {
+    id: 6,
+
+    title: "Second Semester Results Released",
+
+    body: "Second Semester 2025/2026 results are now available for students to view on the Student Information System. Students should review their grades and academic performance summary.",
+
+    date: "10th July, 2026",
+
+    priority: "high",
+
+    tag: "Results",
   },
 ];
