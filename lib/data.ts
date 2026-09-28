@@ -30,8 +30,8 @@ export const student = {
   enrollmentStatus: "Active",
 
   // Academic performance
-  gpa: "4.42",
-  cgpa: "4.14",
+  gpa: "3.73",
+  cgpa: "3.88",
   previousCgpa: "4.00",
 
   // Total credits completed across both semesters
@@ -93,10 +93,14 @@ export const loginCredentials = [
 // ══════════════════════════════════════════════════════════════
 //
 // Reduced dummy course set for the second semester.
-// GPA displayed on the student record: 4.42
+// GPA displayed on the student record: 3.73
 // Previous CGPA: 4.00
-// Overall CGPA: 4.14
+// Overall CGPA: 3.88
 //
+// ══════════════════════════════════════════════════════════════
+
+// ══════════════════════════════════════════════════════════════
+// COURSES — SECOND SEMESTER
 // ══════════════════════════════════════════════════════════════
 
 export const courses = [
@@ -105,10 +109,10 @@ export const courses = [
     name: "General Anatomy II",
     credit: 3,
     type: "Core",
-    grade: 85,
-    letter: "A",
-    points: 5.0,
-    remark: "Distinction",
+    grade: 65,
+    letter: "B",
+    points: 4.0,
+    remark: "Very Good",
     lecturer: "Prof. Emeka Okonkwo, FWACS",
     schedule: "Mon / Wed  |  8:00 – 10:00 AM  |  Anatomy Hall",
   },
@@ -118,10 +122,10 @@ export const courses = [
     name: "Medical Biochemistry II",
     credit: 3,
     type: "Core",
-    grade: 82,
-    letter: "A",
-    points: 5.0,
-    remark: "Distinction",
+    grade: 63,
+    letter: "B",
+    points: 4.0,
+    remark: "Very Good",
     lecturer: "Dr. Chidi Obi, PhD",
     schedule: "Tue / Thu  |  8:00 – 10:00 AM  |  Science Block B",
   },
@@ -131,10 +135,10 @@ export const courses = [
     name: "General Biology II",
     credit: 3,
     type: "Core",
-    grade: 78,
-    letter: "A",
-    points: 5.0,
-    remark: "Distinction",
+    grade: 61,
+    letter: "B",
+    points: 4.0,
+    remark: "Very Good",
     lecturer: "Dr. Kemi Adeyinka, PhD",
     schedule: "Mon / Wed  |  10:00 – 11:00 AM  |  Lecture Hall 2",
   },
@@ -144,10 +148,10 @@ export const courses = [
     name: "General Physics II — Electricity & Magnetism",
     credit: 3,
     type: "Core",
-    grade: 67,
-    letter: "B",
-    points: 4.0,
-    remark: "Very Good",
+    grade: 56,
+    letter: "C",
+    points: 3.0,
+    remark: "Good",
     lecturer: "Dr. Aisha Umar, PhD",
     schedule: "Tue / Thu  |  12:00 – 1:00 PM  |  Lecture Hall 3",
   },
@@ -157,10 +161,10 @@ export const courses = [
     name: "General Chemistry II",
     credit: 3,
     type: "Core",
-    grade: 65,
-    letter: "B",
-    points: 4.0,
-    remark: "Very Good",
+    grade: 54,
+    letter: "C",
+    points: 3.0,
+    remark: "Good",
     lecturer: "Dr. Bola Adeyemi, PhD",
     schedule: "Mon / Fri  |  1:00 – 2:00 PM  |  Science Block A",
   },
@@ -170,10 +174,10 @@ export const courses = [
     name: "Use of English II",
     credit: 2,
     type: "General Studies",
-    grade: 72,
-    letter: "A",
-    points: 5.0,
-    remark: "Distinction",
+    grade: 64,
+    letter: "B",
+    points: 4.0,
+    remark: "Very Good",
     lecturer: "Mrs. Ngozi Adebayo, MA",
     schedule: "Friday  |  1:00 – 3:00 PM  |  Humanities Block",
   },
@@ -183,7 +187,7 @@ export const courses = [
     name: "Anatomy Practical II",
     credit: 2,
     type: "Practical",
-    grade: 66,
+    grade: 62,
     letter: "B",
     points: 4.0,
     remark: "Very Good",
@@ -196,7 +200,7 @@ export const courses = [
     name: "Chemistry Practical II",
     credit: 2,
     type: "Practical",
-    grade: 64,
+    grade: 60,
     letter: "B",
     points: 4.0,
     remark: "Very Good",
@@ -204,7 +208,6 @@ export const courses = [
     schedule: "Saturday  |  8:00 – 11:00 AM  |  Chemistry Laboratory",
   },
 ];
-
 // ══════════════════════════════════════════════════════════════
 // GRADE SCALE — 5.0 SYSTEM
 // ══════════════════════════════════════════════════════════════
