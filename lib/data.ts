@@ -461,7 +461,7 @@ export const announcements = [
 
     title: "Second Semester Results Released",
 
-    body: "Second Semester 2025/2026 results are now available for students to view on the Student Information System. Students should review their grades and academic performance summary.",
+    body: "Second Semester 2025/2026 results are now available for students to view on the Student Information System.. Students should review their grades and academic performance summary.",
 
     date: "10th July, 2026",
 
