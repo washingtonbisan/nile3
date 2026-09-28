@@ -4,7 +4,7 @@
 // ══════════════════════════════════════════════════════════════
 
 export const student = {
-  name: "Sharon Madami",
+  name: "Sharon Liko Madami",
   firstName: "Sharon",
   lastName: "Madami",
   studentId: "255643831",
@@ -79,7 +79,7 @@ export const university = {
 
 export const loginCredentials = [
   {
-    username: "sharon madami",
+    username: "sharon liko madami",
     password: "sharonmdj123",
   },
   {
@@ -105,7 +105,7 @@ export const loginCredentials = [
 
 export const courses = [
   {
-    code: "ANA 102",
+    code: "ANA 121",
     name: "General Anatomy II",
     credit: 3,
     type: "Core",
@@ -118,7 +118,7 @@ export const courses = [
   },
 
   {
-    code: "BCH 102",
+    code: "BCH 122",
     name: "Medical Biochemistry II",
     credit: 3,
     type: "Core",
@@ -131,7 +131,7 @@ export const courses = [
   },
 
   {
-    code: "BIO 102",
+    code: "BIO 123",
     name: "General Biology II",
     credit: 3,
     type: "Core",
@@ -144,7 +144,7 @@ export const courses = [
   },
 
   {
-    code: "PHY 102",
+    code: "PHY 124",
     name: "General Physics II — Electricity & Magnetism",
     credit: 3,
     type: "Core",
@@ -157,7 +157,7 @@ export const courses = [
   },
 
   {
-    code: "CHM 102",
+    code: "CHM 125",
     name: "General Chemistry II",
     credit: 3,
     type: "Core",
@@ -170,7 +170,7 @@ export const courses = [
   },
 
   {
-    code: "GST 102",
+    code: "GST 126",
     name: "Use of English II",
     credit: 2,
     type: "General Studies",
@@ -183,7 +183,7 @@ export const courses = [
   },
 
   {
-    code: "ANA 104",
+    code: "ANA 127",
     name: "Anatomy Practical II",
     credit: 2,
     type: "Practical",
@@ -196,7 +196,7 @@ export const courses = [
   },
 
   {
-    code: "CHM 104",
+    code: "CHM 128",
     name: "Chemistry Practical II",
     credit: 2,
     type: "Practical",
