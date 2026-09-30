@@ -145,7 +145,7 @@ export const courses = [
 
   {
     code: "PHY 124",
-    name: "General Physics II — Electricity & Magnetism",
+    name: "General Physics II",
     credit: 3,
     type: "Core",
     grade: 56,
